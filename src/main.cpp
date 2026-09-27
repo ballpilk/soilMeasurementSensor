@@ -220,6 +220,7 @@ void loop()
 #ifndef ARDUINO
 int main()
 {
+  setup();
 	while(true)
 	{
 		loop();
